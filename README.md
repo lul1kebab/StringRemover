@@ -27,3 +27,14 @@ Tool for finding and erasing strings from process memory (ANSI & UTF-16), includ
 ---
 
 📌 *Supports both ANSI and UTF-16 strings. Advanced mode temporarily changes memory protections to ensure deletion.*
+
+---
+
+## 🛠️ Source Code & Compilation
+
+This application is written in modern C++ using the WinAPI.  
+It was successfully compiled and tested on **MinGW-w64 (64-bit)** using the `g++` compiler.
+
+### 🔧 Compile using:
+```bash
+g++ SourceCode.cpp -o StringRemover.exe -static -static-libgcc -static-libstdc++ -mwindows -O2
