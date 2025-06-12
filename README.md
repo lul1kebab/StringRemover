@@ -1,7 +1,7 @@
 # StringRemover
 
 Tool for finding and erasing strings from process memory (ANSI & UTF-16), including string removal from protected regions.  
-**Will be very useful for cleaning up traces of cheats.**
+**Will be very useful for cleaning up traces of cheats from Process Hacker and System Informer.**
 
 ---
 
