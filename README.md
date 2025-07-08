@@ -16,13 +16,7 @@ Tool for finding and erasing strings from process memory (ANSI & UTF-16), includ
 3. **Enter the contents of the strings you want to delete**  
    One per line.
 
-4. **Configure the checkbox**
-
-   ✅ **Advanced deletion**  
-   – Slower, but deletes any string reliably  
-   – Without it, some strings might not be removed due to memory protection
-
-5. **Press the `Delete All` button**
+4. **Press the `Delete All` button**
 
 ---
 
