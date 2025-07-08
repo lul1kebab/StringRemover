@@ -31,4 +31,4 @@ It was successfully compiled and tested on **MinGW-w64 (64-bit)** using the `g++
 
 ### 🔧 Compile using:
 ```bash
-g++ SourceCode.cpp -o StringRemover.exe -static -static-libgcc -static-libstdc++ -mwindows -O2
+g++ SourceCode.cpp -o StringRemover.exe -m64 -std=c++17 -O2 -static -static-libgcc -static-libstdc++ -mwindows -ladvapi32 -lpsapi
